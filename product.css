@@ -1,0 +1,38 @@
+ .carousel-item{
+    text-align: center !important;
+    text-align: -webkit-center !important; 
+}
+.caraousel-image{
+    max-height: 50vh !important;
+    max-width: 100% !important;
+}
+@media (max-width:450px) {
+    .caraousel-image{
+        max-height: 40vh !important;
+    }
+    
+}
+#carouselExample,#carouselExample2,#carouselExample3,#carouselExample4,#carouselExample5,#carouselExample6,#carouselExample7,#carouselExample8{
+    min-height: 50vh !important;
+    max-height: 50vh !important;
+}
+
+@media (max-width:400px) {
+    #carouselExample,#carouselExample2,#carouselExample3,#carouselExample4,#carouselExample5,#carouselExample6,#carouselExample7,#carouselExample8{
+        min-height: 40vh !important;
+        max-height: 40vh !important;
+    }
+    
+}
+
+@media (max-width:350px) {
+    #carouselExample,#carouselExample2,#carouselExample3,#carouselExample4,#carouselExample5,#carouselExample6,#carouselExample7,#carouselExample8{
+        min-height: 35vh !important;
+        max-height: 35vh !important;
+    }
+    .caraousel-image{
+        max-height: 35vh !important;
+    }
+
+    
+}

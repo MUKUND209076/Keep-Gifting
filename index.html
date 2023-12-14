@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>KEEP GIFTING</title>
+    <link rel="stylesheet" href="document_specific.css">
+    <link rel="stylesheet" href="universal.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <style>
+        @media(min-width: 992px){
+            .row{
+                height: 99%;
+            }
+        }
+        .card-body{
+            display: grid;
+            place-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Nav Section -->
+    <section>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary font-size-20">
+            <div class="container-fluid">
+                <img src="Kg_logo.png" class="logo">
+                <span>
+                    <p class="p-30 mx-3 color-yellow text-center"> KEEP GIFTING</p>
+                </span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!-- <li class="nav-item">
+                        <a class="nav-link active f-22" aria-current="page" href="#">Home</a>
+                    </li> -->
+                        <!-- Kitchen Ware -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle f-22" href="#" role=" button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                KitchenWare
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item " href="Home/kitchenware.html#Cutlery">Cutlery</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="Home/kitchenware.html#Barest">Barest</a></li>
+                            </ul>
+                        </li>
+                        <!-- Decor -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle f-22" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Decor
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="Home/decor.html#Glass Decoration Items
+                                    ">Glass Decoration Items</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="Home/decor.html#Candles">Candles</a></li>
+
+                            </ul>
+                        </li>
+                        <!-- Paintings -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle f-22 letter" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Paintings
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="Home/paintings.html#Skeleton leaf hand painting">Skeleton leaf hand
+                                        painting</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="Home/paintings.html#Handcrafted Parchment Painting">Handcrafted Parchment
+                                        Painting</a></li>
+                            </ul>
+                        </li>
+
+                        <!--  Gift Hampers -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle f-22 " href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Gift Hampers
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="Home/gift hampers.html#FGH">Festive
+                                        Gift Hampers</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="Home/gift hampers.html#EGH">Edible
+                                        Gift Hampers</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Eco Friendly eco friendly bags.html -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle f-22 " href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Eco Friendly Bags
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="Home/eco friendly eco friendly bags.html.html#Jute eco friendly bags.html">Jute eco friendly bags</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="Home/eco friendly eco friendly bags.html.html#Canvas eco friendly bags.html">Canvas
+                                        eco friendly bags</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="Home/eco friendly eco friendly bags.html.html#Felt eco friendly bags.html">Felt eco friendly bags</a>
+                                </li>
+                                <hr class="dropdown-divider">
+
+                                <li><a class="dropdown-item" href="Home/eco friendly eco friendly bags.html.html#c">Laptop Sleeves</a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- 2nd section Welcome slogan & image -->
+    <section class="fadeinzoomout">
+        <div class="parent_welcome_msg_and_img container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 p-4  p-sm-5 d-grid place-content-space-around">
+                    <!-- <div> -->
+                    <div class=" child text-center">
+                        <h1 class="fw-medium"> Embrace the New Era </h1>
+                        <h3 class="fw-medium">of</h3>
+                        <h2 class="fw-medium"> Gifting Solution</h2>
+                        <h2 class="fw-medium my-2">For Any Occasion</h2>
+                    </div>
+
+                    <div class="d-flex justify-content-evenly ">
+                        <button class="btn  btn-success " ><a href="#aboutus" class="text-decoration-none text-white">About us</a></button>
+                        <button class="btn  btn-success"><a href="#contact us" class="text-decoration-none text-white">contact us</a></button>
+                    </div>
+                    <!-- </div> -->
+                </div>
+
+                <div class="col-12 col-md-6 p-4 p-sm-5">
+                    <!-- <div class="fade fadeOut child"> -->
+                    <img src="collage.png" style="border-radius: 5px;" class="welcome_image">
+                    <!-- </div> -->
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <div class="mb-4 mb-md-5  w-100" style="height: 5px;background-color: grey;"></div>
+
+    <!--End of  2nd section Welcome slogan & image -->
+    <!--3rd section Kitchen Ware -->
+    <section class="mb-5 zoomInOut">
+        <div class=" box" data-sr="enter top and scale up, exit top and scale down">
+            <div class="row  ">
+            <div class="col-12 col-lg-6  px-4 pe-md-0 ps-md-4">
+                <h2 class="px-4 fw-bold">
+                    <a href="Home/kitchenware.html" class="color-yellow ">KitchenWare</a>
+                </h2>
+    
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-6 my-3">
+                    <div class="card welcome_to_kg">
+                        <img src="Images/Gold plated cutlery/img4.jpg" class="card-img-top img1 kg"
+                            alt="">
+                        <div class="card-body">
+                            <h5 class="card-title"><b> <a href="Home/kitchenware.html" class=" text-dark"> Cutlery</a></b> </h5>
+                            <p class="card-text">Essential for dining etiquette, encompasses utensils like knives, forks, and spoons used for preparing, serving, and consuming food.</p>
+                            <a href="Home/kitchenware.html" class="btn btn-primary">Know More</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-6 my-3">
+                    <div class="card welcome_to_kg">
+                        <img src="Images/Handcrafted Parchment Painting/img_1.jpg" class="card-img-top img2 kg"
+                            alt="">
+                        <div class="card-body">
+                            <h5 class="card-title"><b> <a href="Home/kitchenware.html" class=" text-dark">Bar Set</a></b> </h5>
+                            <p class="card-text">Includes essential tools such as shakers, strainers, and jiggers, facilitating the art of cocktail preparation and elevating the home or professional bar experience.
+                            </p>
+                            <a href="Home/kitchenware.html#Barest" class="btn btn-primary">Know More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        
+            <div class="mb-4 mb-md-5 d-block d-lg-none w-100 mt-5" style="height: 5px;;background-color: grey;"></div>
+
+
+            <div class="col-12 col-lg-6 px-4 pe-md-4 ps-md-4">
+                <h2 class="px-4 fw-bold">
+                    <a href="Home/decor.html" class="color-yellow text-center">Decor</a>
+                </h2>
+    
+                <div class="row">
+                <div class="col-12 col-sm-6 col-lg-6 my-3">
+                    <div class="card welcome_to_kg">
+                        <img src="Images/Crystal_Jar/img_2.jpg" class="card-img-top img3 kg"
+                            alt="">
+                        <div class="card-body">
+                            <h5 class="card-title"><b> <a href="Home/decor.html " class=" text-dark"> Glass Decorated Items</a></b> </h5>
+                            <p class="card-text">Ecompass a diverse range of ornamental pieces, including vases, figurines, and stained glass art, designed to enhance aesthetic appeal</p>
+                            <a href="Home/decor.html" class="btn btn-primary">Know More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-6 my-3">
+                    <div class="card welcome_to_kg">
+                        <img src="Candles_img/img2.jpg" class="card-img-top img4 kg"
+                            alt="">
+                        <div class="card-body">
+                            <h5 class="card-title"><b> <a href="Home/decor.html#Candles" class=" text-dark"> Candles</a></b> </h5>
+                            <p class="card-text">Come in various shapes, sizes, and scents, providing ambient lighting and creating a cozy atmosphere for diverse settings, from home interiors to special events.</p>
+                            <a href="Home/decor.html#Candles" class="btn btn-primary">Know More</a>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <div class="mb-4 mb-md-5  w-100" style="height: 5px;;background-color: grey"></div>
+    <!-- Paintings & Gift Hampers -->
+    <section class="mb-5 zoomInOut">
+        <div class=" box" data-sr="enter top and scale up, exit top and scale down">
+            <div class="row  ">
+            <div class="col-12 col-lg-6 px-4 pe-md-0 ps-md-4">
+                <h2 class="px-4 fw-bold">
+                    <a href="Home/paintings.html" class="color-yellow ">Paintings</a>
+                </h2>
+    
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-6 my-3">
+                    <div class="card welcome_to_kg">
+                        <img src="Paintings/img_1.jpg" class="card-img-top img1 kg"
+                            alt="">
+                        <div class="card-body">
+                            <h5 class="card-title"><b> <a href="Home/paintings.html" class=" text-dark"> Skeleton Leaf Hand
+                                        painting</a></b> </h5>
+                            <p class="card-text">Skeleton leaf hand painting involves the delicate process of painting directly onto the intricate structures of skeleton leaves, creating unique and nature-inspired artworks.</p>
+                            <a href="Home/paintings.html" class="btn btn-primary">Know More</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-6 my-3">
+                    <div class="card welcome_to_kg">
+                        <img src="Images/Handcrafted Parchment Painting/img_1.jpg" class="card-img-top img2 kg"
+                            alt="">
+                        <div class="card-body">
+                            <h5 class="card-title"><b> <a href="Home/paintings.html" class=" text-dark"> Handcrafted Parchment
+                                        Painting</a></b> </h5>
+                            <p class="card-text">Parchment painting is a traditional art form with a rich history, dating back to medieval times when parchment  was used as a canvas for illuminations and illustrations. </p>
+                            <a href="Home/paintings.html#Handcrafted Parchment Painting" class="btn btn-primary">Know More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        
+            <div class="mb-4 mb-md-5 d-block d-lg-none w-100 mt-5" style="height: 5px;;background-color: grey;"></div>
+
+
+            <div class="col-12 col-lg-6 px-4 pe-md-4 ps-md-4">
+                <h2 class="px-4 fw-bold">
+                    <a href="Home/gift hampers.html" class="color-yellow text-center">Gift Hampers</a>
+                </h2>
+    
+                <div class="row">
+                <div class="col-12 col-sm-6 col-lg-6 my-3">
+                    <div class="card welcome_to_kg">
+                        <img src="Images/Festive Gift Hampers/img1.jpg" class="card-img-top img3 kg"
+                            alt="">
+                        <div class="card-body">
+                            <h5 class="card-title"><b> <a href="Home/gift hampers.html" class=" text-dark"> Festive Gift Hampers</a></b> </h5>
+                            <p class="card-text">Festive gift hampers often feature thematic decorations, such as holiday colors, ornaments, or seasonal motifs, adding a festive touch to the presentation.</p>
+                            <a href="#" class="btn btn-primary">Know More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-6 my-3">
+                    <div class="card welcome_to_kg">
+                        <img src="Images/Edible Gift Hampers/img1.jpg" class="card-img-top img4 kg"
+                            alt="">
+                        <div class="card-body">
+                            <h5 class="card-title"><b> <a href="Home/gift hampers.html" class=" text-dark"> Edible Gift Hampers</a></b> </h5>
+                            <p class="card-text">Edible gift hampers are filled with a variety of delectable treats such as chocolates, cookies, nuts, and gourmet snacks, offering a delightful range of flavors.</p>
+                            <a href="#" class="btn btn-primary">Know More</a>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <div class="mb-4 mb-md-5  w-100" style="height: 5px;;background-color: grey"></div>
+
+
+
+    <!-- Eco Friendly eco friendly bags.html -->
+    <section class="mb-5 zoomInOut">
+        <div class=" box" data-sr="enter top and scale up, exit top and scale down">
+            <h2 class="px-4 fw-bold">
+                <a  href="Home/eco friendly bags.html" class="color-yellow ps-lg-3">Eco Friendly eco friendly bags</a>
+        </h2>
+        <div class="row px-4 ">
+                <div class="col-12 col-sm-6 col-lg-3 my-3">
+                    <div class="card welcome_to_kg">
+                        <img src="Images/Jute Bag/Jute-front.jpg" class="card-img-top img1 kg"
+                            alt="">
+                        <div class="card-body">
+                            <h5 class="card-title"><b> <a href="Home/eco friendly bags.html" class=" text-dark"> Jute  Bag</a></b> </h5>
+                            <p class="card-text"> Eco-friendly eco friendly bags made from the natural fibers of the jute plant. Known for its durability and sustainability, commonly used for shopping, packaging, and various other purposes.</p>
+                            <a href="Home/eco friendly bags.html" class="btn btn-primary">Know More</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 my-3">
+                    <div class="card welcome_to_kg">
+                        <img src="Images/Canvas Bag/img6.jpg" class="card-img-top img2 kg"
+                            alt="">
+                        <div class="card-body">
+                            <h5 class="card-title"><b> <a href="Home/eco friendly bags.html#canvas_bags" class=" text-dark"> Canvas Bag</a></b> </h5>
+                            <p class="card-text">A durable and versatile eco friendly bags made from woven fabric, typically composed of cotton-blend material, popular for their strength, reusable nature, and suitability for various purposes. </p>
+                            <a href="Home/eco friendly bags.html#jute eco friendly bags#canvas_bags" class="btn btn-primary">Know More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 my-3">
+                    <div class="card welcome_to_kg">
+                        <img src="Images/Felt Bag/felt-bag1.jpg" class="card-img-top img3 kg"
+                            alt="">
+                        <div class="card-body">
+                            <h5 class="card-title"><b> <a href="Home/eco friendly bags.html#Felt bag" class=" text-dark"> Felt Bag</a></b> </h5>
+                            <p class="card-text">A stylish and often soft eco friendly bags made from matted fibers of wool or synthetic materials, appreciated for their unique texture, lightweight feel making them suitable for more formal occasions. </p>
+                            <a href="Home/eco friendly bags.html#Felt bag" class="btn btn-primary">Know More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 my-3">
+                    <div class="card welcome_to_kg">
+                        <img src="Images/Laptop Sleeves/Laptop-front.jpg" class="card-img-top img4 kg"
+                            alt="">
+                        <div class="card-body">
+                            <h5 class="card-title  "><a href="Home/eco friendly bags.html#laptop_sleeves_bags" class="text-decoration-none text-dark text-decoration-underline"><u>Laptop Bag</u></a></h5>
+                            <p class="card-text">A protective and often padded case designed specifically to hold and safeguard laptops during transportation. Typically made from materials like neoprene, nylon, or other protective fabrics.</p>
+                            <a href="Home/eco friendly bags.html#laptop_sleeves_bags" class="btn btn-primary">Know More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="mb-4 mb-md-5 w-100" style="height: 5px;;background-color: grey"></div>
+    <!-- Work Done -->
+    <section>
+        <div class="mb-4">
+            <h2 class="color-yellow fst-italic  text-center "><u>Check Out Our Accomplishments</u></h2>
+        </div>
+
+        <marquee behavior="alternate" direction="left" class="marq-img">
+            <img src="Candles_img/img2.jpg" style="height: 35vh;">
+            <img src="EdibleGiftHamper/img1.jpg" style="height: 35vh;">
+
+            <img src="FestiveGiftHampers/img1.jpg" style="height: 35vh;">
+            <img src="Glass_Decoration_Items/img_2.jpg" style="height: 35vh;">
+
+            <img src="LaptopBag/Laptop-front.jpg" style="height: 35vh;">
+            <img src="Paintings/img_1.jpg" style="height: 35vh;">
+
+            <img src="Candles_img/img4.jpg" style="height: 35vh;">
+            <img src="Cutlery/img_2.jpg" style="height: 35vh;">
+
+
+            <img src="EdibleGiftHamper/img3.jpg" style="height: 35vh;">
+            <img src="Images/Festive Gift Hampers/img8.jpg" style="height: 35vh;">
+
+            <img src="Images/Jute Bag/Jute-front.jpg" style="height: 35vh;">
+            <img src="Candles_img/img__4.jpg" style="height: 35vh;">
+
+
+            <img src="EdibleGiftHamper/img4.jpg" style="height: 35vh;">
+            <img src="FestiveGiftHampers/img8.jpg" style="height: 35vh;">
+
+            <img src="Candles_img/img_1.jpg" style="height: 35vh;">
+            <img src="EdibleGiftHamper/img4.jpg" style="height: 35vh;">
+
+        </marquee>
+    </section>
+    <div class="my-4 mb-md-5 w-100" style="height: 5px;;background-color: grey"></div>
+
+    <!-- Why Us -->
+    <!-- About Us -->
+    <div id="why us"
+        class="row m-3 m-sm-4 m-md-5 px-1 px-sm-3 yellow_border text-center border_bottom_padding_bottom middle-product-section zoomInOut">
+        <h3 class="text-underline  color-yellow  "
+            style="margin-bottom: 20px; margin-top: 20px; font-size: 30px; font-weight: bolder;">
+            <b><u>Why Us</u></b>
+        </h3>
+
+        <p> <span style=" font-size: 25px; font-weight: 500; text-align: center;">Welcome to <span
+                    style="color: #d5ad5e; "> <u>Keep Gifting </u></span></span><br /> <span>
+                        <u>Your Eco-Friendly Gifting
+                Destination</u>
+            </span><br /><br /></p>
+        <p class="text-start">
+            At Keep Gifting, we believe in the art of thoughtful gifting that not only brings joy to the recipient
+            but also leaves a positive impact on our planet.<br /><br />
+
+            Whether you're searching for stylish eco-friendly eco friendly bags, handcrafted kitchenware, inspiring paintings,
+            curated gift hampers, or unique decor items, our diverse
+            range ensures you'll find the perfect gift for every occasion.<br /><br />
+
+            By choosing Keep Gifting, you not only support sustainable practices but also contribute to the
+            livelihoods of skilled craftsmen around the world.<br /><br />
+
+            Thank you for choosing Keep Gifting for your eco-friendly gifting needs.
+        </p>
+
+    </div>
+
+    <div class="mb-4 mb-md-5  w-100" style="height: 5px;;background-color: grey"></div>
+
+    <!-- About Us -->
+    <div id="aboutus"
+        class="row m-3 m-sm-4 m-md-5 text-center px-1 px-sm-3 yellow_border  border_bottom_padding_bottom middle-product-section zoomInOut">
+        <h3 class="text-underline  color-yellow" style="margin-bottom: 20px; margin-top: 20px;">
+            <b><u>About Us: <span style="color: #d5ad5e; ">Keep Gifting </span></u></b>
+        </h3>
+
+        <p class="text-start">Welcome to Keep Gifting, a haven for those who believe that gifting is not just an
+            exchange of items but a reflection of values and shared ideals. <br /><br />
+
+            Founded 2016, Keep Gifting emerged from a shared love for thoughtful gifts and a deep concern
+            for the environmental impact of consumer choices.<br /><br />
+
+            At Keep Gifting, our mission is to provide a platform where conscious consumers can discover and
+            celebrate gifts that not only captivate the senses but also honor the planet. We believe in the power of
+            meaningful gifting to foster connections, inspire change, and leave a lasting legacy for generations to
+            come.<br /><br />
+
+            Follow us on social media, engage with our initiatives, and be part of a movement toward a greener, more
+            conscious world.<br/><br/>
+
+            Thank you for choosing Keep Gifting. Let's create a future where every gift tells a story of love,
+            compassion, and positive impact.
+
+
+        </p>
+    </div>
+
+
+    <!-- Footer Start -->
+
+    <footer class=" bg-dark text-white zoomInOut">
+        <div class=" box" data-sr="enter top and scale up, exit top and scale down">
+            <div class="row px-1  px-sm-4 ">
+                <div class="col-6 col-md-3 my-3 d-grid place-content-space-between">
+                    <h4 class="text-center">PRODUCTS</h4>
+                    <ul class="pe-3" style="display: grid;
+                            place-content: center">
+                        <li><a class="text-white text-decoration-none" href="Home/kitchenware.html">KitchenWare</a></li>
+                        <li><a class="text-white text-decoration-none" href="Home/decor.html">Decor</a></li>
+                        <li><a class="text-white text-decoration-none" href="Home/paintings.html">Paintings</a></li>
+                        <li><a class="text-white text-decoration-none" href="Home/gift hampers.html">Gift Hampers</a></li>
+                        <li><a class="text-white text-decoration-none" href="Home/eco friendly eco friendly bags.html.html">Eco Friendly Bags</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 my-3 d-grid place-content-space-between">
+                    <h4 class="text-center">SOCIAL MEDIA</h4>
+                    <ul class="pe-3" style="display: grid;
+                            place-content: center">
+                        <li><a href="#" class="text-white text-decoration-none">Whatsapp</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Facebook</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Instagram</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Twitter</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">LinkedIn</a></li>
+                    </ul>
+                </div>
+
+                <div id="contact us" class="col-6 col-md-3 my-3 d-grid place-content-space-between">
+                    <h4 class="text-center">CONTACT US</h4>
+                    <ul class="pe-3" style="display: grid;
+                            place-content: center">
+                        <li class="text-decoration-none">For Any Query<br/>Contact Us on <br>XXXXX12345</li><br/>
+                        <li>EMail:<br/>hello@gmail.com</li>
+                    </ul>
+
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448196.5265505196!2d76.76355329068234!3d28.643684575329452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1702548537270!5m2!1sen!2sin" class="col-6 col-md-3 my-3 d-grid place-content-space-between text-center" style="height: auto;" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="text-center py-2 bg-white text-dark" style="overflow-x: hidden; ">Copyright &copy; 2023 Keep Gifting. All rights reserved.</div>
+    </footer>
+    <!-- Testing End -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</body>
+
+</html>
